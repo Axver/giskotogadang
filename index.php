@@ -28,7 +28,7 @@ include 'pr_getdata.php';
 
   <script type="text/javascript">
 
-  var mymap = L.map('mapid').setView([-0.320564, 100.348355], 13);
+  var mymap = L.map('mapid').setView([-0.316959, 100.356938], 16);
   L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     maxZoom: 18,
